@@ -18,19 +18,43 @@ footer{
 #CabeceraMenu{
     flex: 70%;
 }
+ul li{
+    text-decoration: none;
+    display: inline;
+}
+ul li a{
+    color: #550101;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 8px;
+}
+ul li a:hover{
+    color: white;
+    text-decoration: underline dashed;
+}
 #ImagenNombreRedondo{
     width: 150px;
-    height: 150px;
+    height:150px;
+    position: relative;
+    z-index: 1000;
+    left: 5%;
     background-color: white;
     border-radius: 75px;
+    right: 20px;
+    background-image: url("../img/Recurso\ 8.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 #nombreRectangulo{
     background-color: #013334;
-    width: 30%;
+    position: absolute;
+    width: 10%;
     padding: 20px;
     color: white;
     font-size: 25px;
     text-transform: uppercase;
     font-weight: bold;
+    top: 18%;
 
 }
