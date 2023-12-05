@@ -12,7 +12,9 @@
     display: flex;
 padding-top: 50px;}
 footer{
-    width: 100%;}
+    width: 100%;
+    background-color: #7b9e35;
+}
 #cabeceraImagenNombre{
     flex: 30%;
 }
@@ -124,4 +126,44 @@ h1{
 .disenoBoton:hover{
     opacity: 50%;
     cursor: pointer;
+}
+ul li:last-child{
+    border-right: none;
+}
+#menuFooter{
+    flex: 20%
+}
+#contenidoFooter{
+    flex: 40%;
+    text-align: justify;
+}
+#socialFooter{
+    flex: 40%;
+    text-align: center;
+}
+nav a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav a:hover{
+    color:#550101;
+    font-size: 15px;
+}
+.socialFooder li{
+    border:none
+}
+li img{
+    width: 5%;
+    cursor: pointer;
+}
+li img:hover{
+    opacity: 60%;
+    cursor: pointer;
+}
+#marcoFooter{
+    display: flex;
+    padding: 50px;
 }
